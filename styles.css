@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap";
+
+:root {
+    --color-green: #50fa7b;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+}
+
+header{
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: var(--color-green);
+    transition: color 200ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 20px 20px 15px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 2px solid var(--color-green);
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+#wrapper h1 {
+    font-size: 32px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: lighter;
+    margin-top: 4px;
+    opacity: 0.8;
+}
+
+#wrapper p {
+    max-width: 500px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+#wrapper p a {
+    color: var(--color-green);
+}
+
+#links-footer a {
+    font-size: 14px;
+    border-bottom: 1px solid var(--color-green);;
+}
