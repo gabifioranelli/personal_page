@@ -88,7 +88,7 @@ header{
 /*=== CARDS ===*/
 
 .cards {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -109,9 +109,14 @@ header{
     filter: brightness(80%);
 }
 
-.card__content,
-.card__info {
+.card__content {
     padding: 24px;
+}
+
+.card__time {
+    padding: 24px;
+    text-align: center;
+    padding: 5px 20px;
 }
 
 .card__info {
